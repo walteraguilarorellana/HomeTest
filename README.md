@@ -4,7 +4,7 @@ This project is an application to view a repository using the Github API, using 
 Made by Walter Aguilar as a test for Fulltimeforce.
 
 ## Features  
-✅ frontend Angular
+✅ frontend Angular + Tailwind CSS
 ✅ backend NestJS.
 ## Installation
 
