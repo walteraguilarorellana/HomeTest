@@ -10,28 +10,29 @@ Made by Walter Aguilar as a test for Fulltimeforce.
 
 ```bash
 # Install dependencies
+*in directory ./backend/  and   ./frontend/
 $ npm install
 ```
 
 ## Running Nest.js
-
+*in directory ./backend/ 
 ```bash
 # development
-$ 
+$ npm run start
 
 # watch mode
-$ 
+$ npm run start:dev
 
 # production mode
-$ 
+$ npm run start:prod
 ```
 
 ## Running Angular
-
+*in directory ./frontend/
 ```bash
 # development
-$ 
+$ npm run start
 
 # production mode
-$ 
+$ npm run build
 ```
