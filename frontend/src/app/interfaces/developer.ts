@@ -3,4 +3,5 @@ export interface developer {
     username: string, 
     email: string,
     repo: string
-}
+};
+
