@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { developer } from '../interfaces/developer';
 import { curRepo } from '../interfaces/curRepo';
 
+//const url of api github
 const url:string = "https://api.github.com";
 
 @Injectable({
@@ -14,6 +15,7 @@ export class DeveloperService {
     currepo:curRepo ={
       name:''
     };
+    //backend server
     Server_URL:string = 'http://localhost:3000/developer';
 
     constructor(private http:HttpClient) { }
